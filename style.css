@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+body {
+    font-family: 'Source Code Pro', monospace;
+    background: #12686b;
+    display: flex;
+    justify-content: center;
+}
+
+.main-content {
+    position: absolute;
+    width: 320px;
+    background: #083a3b83;
+    padding: 23px;
+    border-radius: 10px;
+}
+
+h6 {
+    margin: 0px;
+    color: red;
+}
+
+h1 {
+    color: #460943;
+    margin-bottom: 0px;
+}
+
+h4 {
+    padding-left: 170px;
+    margin-top: 0px;
+}
+
+textarea {
+    resize: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 320px;
+    height: 200px;
+    font-size: x-large;
+    outline: none;
+    padding: 5px;
+}
+
+.fixer {
+    display: flex;
+    width: 320px;
+    justify-content: center;
+}
+
+.dotdash {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background: #70a0afa2;
+    text-align: center;
+    line-height: 170px;
+    font-size: xxx-large;
+}
