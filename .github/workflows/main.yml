@@ -11,6 +11,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        server: ftp.techzdeal.com
+        server: ftp.rohanniroula.com.np
         username: morsedeployer@rabinniroula.com.np
         password: ${{ secrets.ftp_password }}
