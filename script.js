@@ -10,6 +10,11 @@ var beep = new p5.Oscillator('sine');
 beep.freq = 440
 beep.amp = 1
 
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    document.getElementById('man').style.display = "none"
+    document.getElementById('main').innerHTML = '<h1 style="color: red;">Sorry, you can\'t use this on your phone 🙏</h1>'
+}
+
 setInterval(() => {
     if ((Date.now() - endtime) > 700) {
         dotdash = dotdasharray.join('')

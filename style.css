@@ -6,8 +6,12 @@ body {
     justify-content: center;
 }
 
+img {
+    height: 650px;
+    width: 450px;
+}
+
 .main-content {
-    position: absolute;
     width: 320px;
     background: #083a3b83;
     padding: 23px;
