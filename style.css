@@ -4,6 +4,7 @@ body {
     background: #12686b;
     display: flex;
     justify-content: center;
+    user-select: none;
 }
 
 img {
@@ -44,6 +45,17 @@ textarea {
     padding: 5px;
 }
 
+.clsbtn {
+    width: 50px;
+    height: 25px;
+    font-size: large;
+    padding: 0px;
+    border-radius: 5px;
+    outline: none;
+    background: #c03030;
+    cursor: pointer;
+}
+
 .fixer {
     display: flex;
     width: 320px;
@@ -58,4 +70,5 @@ textarea {
     text-align: center;
     line-height: 170px;
     font-size: xxx-large;
+    cursor: pointer;
 }
