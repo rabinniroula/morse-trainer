@@ -12,5 +12,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
         server: venus.whfweb.com
-        username: morsedeployer@rabinniroula.com.np
+        username: morse@rabinniroula.com.np
         password: ${{ secrets.ftp_password }}
